@@ -1,0 +1,757 @@
+
+.heading{
+    display:inline-block;
+}
+#h11{
+    font-size: 25px;
+    margin:0px;
+    padding-bottom:0px;
+    
+}
+#h12{
+    font-size: 27px;
+    font-weight: normal;
+    margin:0px;
+    padding-top:3px;
+}
+#h21{
+    font-size: 23px;
+    font-weight: lighter;
+    margin:0px;
+}
+header{
+    background-color: white;
+}
+.mainname{
+    display: inline-block;
+    margin-left:350px;
+    position: absolute;
+    text-align: center;
+}
+.mainname p{
+    font-size: 19px;
+    font-weight: 530;
+    margin-top: 0px;
+    padding:0px;
+}
+
+.navline{
+    background-color: rgb(0, 0, 121);
+    color: white;
+    font-size: 16px;
+    padding:13px;
+    margin-bottom: 20px;
+}
+#home{
+display: inline-block; 
+padding-right:7px;
+border-right: 2px solid white;
+}
+#cp{
+padding-right:9px;
+border-right: 2px solid white;
+display: inline-block;
+padding-left:7px;
+}
+#lo{
+padding-right:9px;
+border-right: 2px solid white;
+display: inline-block;
+padding-left:7px;
+}
+.line2{
+    text-align: right; 
+    font-size:large;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+.line2 h4{
+    display:inline;
+}
+#sbheading{
+     display: inline-block;
+    font-size: 20px;
+    color: rgb(40, 40, 211);
+    font-weight:540;
+    font-style:"roboto";
+     border:1px solid rgb(172, 171, 171);
+     text-align:left;
+     height:30px;
+     width:420px;
+          padding-top: 2px;
+     padding-left: 3px;
+    }
+    .sbdetails{
+        margin-top:5px;
+        font-size:17px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+   .sidebar{
+    
+    display:block;
+    float:left;
+
+   }
+   .contact {
+    display: inline-block;
+       background-color: white;
+    margin-left: 50px;
+    position:absolute;
+    height:1000px;
+    width:auto;
+    margin-right: 0px;
+    } 
+    .contact h3{
+        margin-top: 0px;
+        height:30px;
+        width:70vw;
+        padding:2px;
+        border:1px solid rgb(172, 171, 171);
+        color: rgb(55, 66, 224);
+    }
+    .contactname{
+        width:250px;
+        font-size: 18px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-left: 90px;
+        text-align: right;
+        display: block;
+        float:left;
+        border-left:1px solid rgb(172, 171, 171);
+    }
+    .contactdetails{
+    
+        width:800px;
+        display:inline-block;
+        position:absolute;
+        margin-left:20px;
+        padding-right:120px;
+        border-right:1px solid  rgb(172, 171, 171);
+     }
+     .contactdetails input{
+        height:27px;
+        width:450px;
+        font-size: large;
+        display:block;
+        margin-top:10px;
+        border-radius:3px;
+     }
+     .contactsubmit{
+        position: relative;
+        top:400px;
+        left:540px;
+    }
+    .contactsubmit button{
+        padding-left:20px;
+         padding-right:20px;
+          padding-top:5px;
+           padding-bottom:5px;
+           border:1px solid black ;
+           border-radius: 4px;
+           font-size:16px;
+         background-color: rgb(77, 105, 230);
+      color:rgb(255, 249, 249);
+    }
+    .contactsubmit a{
+        text-decoration: none;
+        color: white;
+    }
+    .contactsubmit a:hover{
+        text-decoration: none;
+    }
+    .contactsubmit a:visited{
+        color: white;
+    }
+    .ffoot{
+    background-color: rgb(0, 0, 121);
+    color: white;
+    font-size: 16px;
+    padding:43px;
+    position: relative;
+    top:520px;
+}
+
+
+
+    .pdetails {
+    display: inline-block;
+       background-color: white;
+    margin-left: 50px;
+    position:absolute;
+    height:1000px;
+    width:1170px;
+    margin-right: 0px;
+    } 
+    .pdetails h3{
+        margin-top: 0px;
+        height:30px;
+        padding:2px;
+        border:1px solid rgb(172, 171, 171);
+        color: rgb(55, 66, 224);
+    }
+    .pdetailsname{
+        width:450px;
+        font-size: 15px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-left: 90px;
+        text-align: right;
+        display: block;
+        float:left;
+        border-left:1px solid rgb(172, 171, 171);
+    }
+    .pdetailsdetails{
+        width:610px;
+        display:inline-block;
+        position:absolute;
+        margin-left:20px;
+        border-right:1px solid  rgb(172, 171, 171);
+     }
+     .pdetailsdetails input{
+        border-radius:3px;
+        height:27px;
+        width:450px;
+        font-size: large;
+        display:block;
+        margin-top:15px;
+     }
+     .pdetailssubmit{
+        position: relative;
+        top:950px;
+        left:0px;
+    }
+    .pdetailssubmit button{
+        padding-left:20px;
+         padding-right:20px;
+          padding-top:5px;
+           padding-bottom:5px;
+           border:1px solid black ;
+           border-radius: 4px;
+           font-size:16px;
+         background-color: rgb(77, 105, 230);
+      color:rgb(255, 249, 249);
+    }
+    .pdetailssubmit a{
+        text-decoration: none;
+    }
+    .pdetailssubmit a:hover{
+        text-decoration: none;
+    }
+    .pdetailssubmit a:visited{
+        color: white;
+    }
+    .pfoot{
+         background-color: rgb(0, 0, 121);
+    color: white;
+    font-size: 16px;
+    padding:43px;
+        position:relative;
+        top:1100px;
+    }
+    
+    
+
+    .iddetails {
+    display: inline-block;
+    background-color: white;
+    margin-left: 50px;
+    position:absolute;
+    height:1000px;
+    width:1170px;
+    margin-right: 0px;
+
+    
+    } 
+    .iddetails h3{
+        margin-top: 0px;
+        height:30px;
+        padding:2px;
+        border:1px solid rgb(172, 171, 171);
+        color: rgb(55, 66, 224);
+    }
+    .iddetailsname{
+        border-left:1px solid rgb(172, 171, 171);
+        width:450px;
+        font-size: 17px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-left: 90px;
+        text-align: right;
+        display: block;
+        float:left;
+            }
+    .iddetailsdetails{
+         border-right:1px solid rgb(172, 171, 171);
+        width:610px;
+        display:inline-block;
+        position:absolute;
+        margin-left:20px;        
+     }
+     .iddetailsheading2{
+        display: block;
+        margin-top:70px;
+     }
+     .iddetailsdetails input{
+        height:27px;
+        width:450px;
+        font-size: large;
+        display:block;
+        margin-top:15px;
+        border-radius:3px;
+     }
+     .radio{
+        display:block;
+        margin-top:150px;
+        font-size: 17px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     }
+     .iddetailssubmit{
+        position: relative;
+        top:550px;
+        left:600px;
+    }
+    .iddetailssubmit button{
+        padding-left:20px;
+         padding-right:20px;
+          padding-top:5px;
+           padding-bottom:5px;
+           border:1px solid black ;
+           border-radius: 4px;
+           font-size:16px;
+         background-color: rgb(77, 105, 230);
+      color:rgb(255, 249, 249);
+    }
+    .iddetailssubmit a{
+        text-decoration: none;
+    }
+    .iddetailssubmit a:hover{
+        text-decoration: none;
+    }
+    .iddetailssubmit a:visited{
+        color: white;
+    }
+    .ifoot{
+         background-color: rgb(0, 0, 121);
+    color: white;
+    font-size: 16px;
+    padding:43px;
+        position:relative;
+        top:620px;
+    }
+
+
+.ecdetails {
+    display: inline-block;
+       background-color: white;
+    margin-left: 50px;
+    position:absolute;
+    height:1000px;
+    width:1170px;
+    margin-right: 0px;
+    border-left:1px solid rgb(172, 171, 171);
+    border-right:1px solid rgb(172, 171, 171);
+    } 
+    .ecdetails h3{
+        margin-top: 0px;
+        height:30px;
+        padding:2px;
+        border:1px solid rgb(172, 171, 171);
+        color: rgb(55, 66, 224);
+    }
+    .ecdetailsname{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        width:450px;
+        font-size: 17px;
+        padding-left: 90px;
+        text-align: right;
+        display: block;
+        float:left;
+        
+    }
+    .ecdetailsdetails{
+        width:250px;
+        display:inline-block;
+        position:relative;
+        margin-left:20px;
+        top:80px;
+        left:25px;
+       
+     }
+     .ecdetailsdetails select{
+        border-radius:3px;
+     }
+     .ecdetailsdetails input{
+        border-radius:3px;
+        height:27px;
+        width:450px;
+        font-size: large;
+        display:block;
+        margin-top:15px;
+     }
+     .ecdetailssubmit{
+        position: relative;
+        top:120px;
+        left:0px;
+    }
+    .ecdetailssubmit button{
+        padding-left:20px;
+         padding-right:20px;
+          padding-top:5px;
+           padding-bottom:5px;
+           border:1px solid black ;
+           border-radius: 4px;
+           font-size:16px;
+         background-color: rgb(77, 105, 230);
+      color:rgb(255, 249, 249);
+    }
+    .ecdetailssubmit a{
+        text-decoration: none;
+    }
+    .ecdetailssubmit a:hover{
+        text-decoration: none;
+    }
+    .ecdetailssubmit a:visited{
+        color: white;
+    }
+    .applyfor pre{
+       display: inline-block;
+        }
+    .applyfor{
+        border: 2px solid black;
+        display:inline-block;
+        width:190px;
+        padding:0px;
+        position: relative;
+        left:50px;
+        border-radius:3px;
+    }
+    .session pre{
+       display: inline-block;
+        }
+    .session{
+        border: 2px solid black;
+        display:inline-block;
+        width:190px;
+        padding:0px;
+        top:110px;
+        right:150px;
+        position: relative;
+        border-radius:3px;
+    }
+    .ecdetailsdetails2{
+        
+        width:250px;
+        display:inline-block;
+        position:relative;
+        margin-left:20px;
+        left:25px;
+        bottom:186px;
+        
+     }
+     .ecfoot{
+         background-color: rgb(0, 0, 121);
+    color: white;
+    font-size: 16px;
+    padding:43px;
+        position:relative;
+        top:1020px;
+    }
+.qdetails {
+    display: inline-block;
+       background-color: rgb(255, 255, 255);
+    margin-left: 50px;
+
+    height:1000px;
+    width:auto;
+    margin-right: 0px;
+    padding-left: 5px;
+    border-left:1px solid rgb(172, 171, 171);
+    padding-right: 5px;
+    border-right:1px solid rgb(172, 171, 171);
+    } 
+    .tw {
+    display: inline-block;
+       background-color: rgb(255, 255, 255);
+    margin-left: 0px;
+    position:absolute;
+    height:auto;
+    width:auto;
+    margin-right: 0px;
+    margin-left:0px;
+    padding-left: 5px;
+    border-left:1px solid rgb(172, 171, 171);
+    padding-right: 5px;
+    border-right:1px solid rgb(172, 171, 171);
+    } 
+    .qdetails pre{
+        font-size: 17px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .qdetails h3{
+        margin-top: 0px;
+        height:30px;
+        padding:2px;
+        border:1px solid rgb(172, 171, 171);
+        color: rgb(55, 66, 224);
+    }
+    .qdetails select{
+        border-radius:3px;
+    }
+    .qdetails input{
+          border-radius:3px;
+    }
+    .qdetailssubmit{
+        position: relative;
+        top:950px;
+        left:1000px;
+    }
+    .qdetailssubmit button{
+        padding-left:20px;
+         padding-right:20px;
+          padding-top:5px;
+           padding-bottom:5px;
+           border:1px solid black ;
+           border-radius: 4px;
+           font-size:16px;
+         background-color: rgb(77, 105, 230);
+      color:rgb(255, 249, 249);
+       
+    }
+    .qdetailssubmit a{
+        text-decoration: none;
+    }
+    .qdetailssubmit a:hover{
+        text-decoration: none;
+    }
+    .qdetailssubmit a:visited{
+        color: white;
+    }
+    .qfoot{
+         background-color: rgb(0, 0, 121);
+    color: white;
+    font-size: 16px;
+    padding:43px;
+        position:relative;
+        top:1020px;
+    }
+
+
+    .adetails {
+    display: inline-block;
+       background-color: white;
+    margin-left: 50px;
+    position:absolute;
+    height:1000px;
+    width:1170px;
+    margin-right: 0px;
+    } 
+    .adetails h3{
+        margin-top: 0px;
+        height:30px;
+        padding:2px;
+        border:1px solid rgb(172, 171, 171);
+        color: rgb(55, 66, 224);
+    }
+    .adetailsname{
+        margin-right:40px;
+        width:450px;
+        font-size: 17px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-left: 70px;
+        text-align: right;
+        display: block;
+        float:left;
+        border-left:1px solid rgb(172, 171, 171);
+    }
+    .adetails select{
+        border-radius:3px;
+    }
+    .adetailsdetails{
+        width:560px;
+        display:inline-block;
+        position:absolute;
+        margin-left:20px;
+        padding-right:28px;
+        border-right:1px solid  rgb(172, 171, 171);
+     }
+     .adetailssubmit{
+        position: relative;
+        top:380px;
+        left:0px;
+    }
+    .adetailssubmit button{
+        padding-left:20px;
+         padding-right:20px;
+          padding-top:5px;
+           padding-bottom:5px;
+           border:1px solid black ;
+           border-radius: 4px;
+           font-size:16px;
+         background-color: rgb(77, 105, 230);
+      color:rgb(255, 249, 249);
+    }
+    .adetailssubmit a{
+        text-decoration: none;
+    }
+    .adetailssubmit a:hover{
+        text-decoration: none;
+    }
+    .adetailssubmit a:visited{
+        color: white;
+    }
+    .afoot{
+         background-color: rgb(0, 0, 121);
+    color: white;
+    font-size: 16px;
+    padding:43px;
+        position:relative;
+        top:520px;
+    }
+
+
+    .edetails {
+    display: inline-block;
+       background-color: white;
+    margin-left: 50px;
+    position:absolute;
+    height:1000px;
+    width:1170px;
+    margin-right: 0px;
+    } 
+    .edetails h3{
+        margin-top: 0px;
+        height:30px;
+        padding:2px;
+        border:1px solid rgb(172, 171, 171);
+        color: rgb(55, 66, 224);
+    }
+    .edetailsname{
+        
+        width:450px;
+        font-size: 17px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-left: 90px;
+        text-align: right;
+        display: block;
+        float:left;
+        border-left:1px solid rgb(172, 171, 171);
+    }
+    .edetailsdetails{
+        width:560px;
+        padding-left:45px;
+        display:inline-block;
+        position:absolute;
+        margin-left:20px;
+        border-right:1px solid  rgb(172, 171, 171);
+     }
+     .edetailsdetails select{
+        border-radius:3px;
+     }
+     .edetailsdetails input{
+        border-radius:3px;
+     }
+     .edetailssubmit{
+        position: relative;
+        top:380px;
+        left:0px;
+    }
+    .edetailssubmit button{
+        padding-left:20px;
+         padding-right:20px;
+          padding-top:5px;
+           padding-bottom:5px;
+           border:1px solid black ;
+           border-radius: 4px;
+           font-size:16px;
+         background-color: rgb(77, 105, 230);
+      color:rgb(255, 249, 249);
+    }
+    .edetailssubmit a{
+      text-decoration: none;
+    }
+    .edetailssubmit a:hover{
+        text-decoration: none;
+    }
+    .edetailssubmit a:visited{
+        color: white;
+    }
+     .efoot{
+         background-color: rgb(0, 0, 121);
+    color: white;
+    font-size: 16px;
+    padding:43px;
+        position:relative;
+        top:520px;
+    }
+
+    .fdetails {
+    display: inline-block;
+       background-color: white;
+    margin-left: 50px;
+    position:absolute;
+    height:1000px;
+    width:1170px;
+    margin-right: 0px;
+    } 
+    .fdetails h3{
+        margin-top: 0px;
+        height:30px;
+        padding:2px;
+        border:1px solid rgb(172, 171, 171);
+        color: rgb(55, 66, 224);
+    }
+    .tableheading th{
+        border:1px solid black;
+        border-left:none;
+        padding-right:70px;
+        padding-left:90px;
+        background-color: #c4ffff;
+       
+    }
+    .content td{
+        padding-right:0px;
+         border:1px solid black;
+         font-size:17px;
+         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       
+    } 
+    .name{
+        margin-right:40px;
+        display:inline-block;
+        width:123px;
+    }
+    .namedetails{
+         
+        display:inline-block;
+    }
+    .fdetailssubmit{
+        position: relative;
+        top:70px;
+        left:520px;
+    }
+    .fdetailssubmit button{
+        padding-left:20px;
+         padding-right:20px;
+          padding-top:5px;
+           padding-bottom:5px;
+           border:1px solid black ;
+           border-radius: 4px;
+           font-size:16px;
+         background-color: rgb(77, 105, 230);
+      color:rgb(255, 249, 249);
+    }
+    .fdetailssubmit a{
+      text-decoration: none;
+    }
+    .fdetailssubmit a:hover{
+        text-decoration: none;
+    }
+    .fdetailssubmit a:visited{
+        color: white;
+    }
+    .fifoot{
+         background-color: rgb(0, 0, 121);
+    color: white;
+    font-size: 16px;
+    padding:43px;
+        position:relative;
+        top:690px;
+    }
+
