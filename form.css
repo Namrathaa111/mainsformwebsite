@@ -386,10 +386,8 @@ padding-left:7px;
         width:250px;
         display:inline-block;
         position:relative;
-        margin-left:20px;
-        top:80px;
-        left:25px;
-       
+        right:345px;
+        top:262px;
      }
      .ecdetailsdetails select{
         border-radius:3px;
@@ -404,7 +402,7 @@ padding-left:7px;
      }
      .ecdetailssubmit{
         position: relative;
-        top:120px;
+        top:110px;
         left:0px;
          
     }
@@ -428,8 +426,11 @@ padding-left:7px;
     .ecdetailssubmit a:visited{
         color: white;
     }
+
+
     .applyfor pre{
        display: inline-block;
+       
         }
     .applyfor{
         border: 2px solid black;
@@ -438,6 +439,7 @@ padding-left:7px;
         padding:0px;
         position: relative;
         left:50px;
+        bottom:400px;
         border-radius:3px;
     }
     .session pre{
@@ -448,19 +450,17 @@ padding-left:7px;
         display:inline-block;
         width:190px;
         padding:0px;
-        top:110px;
+        bottom:300px;
         right:150px;
         position: relative;
         border-radius:3px;
     }
     .ecdetailsdetails2{
-        
         width:250px;
         display:inline-block;
         position:relative;
-        margin-left:20px;
-        left:25px;
-        bottom:186px;
+        bottom:233px;
+        left:320px;
         
      }
      .ecfoot{
@@ -471,6 +471,10 @@ padding-left:7px;
         position:relative;
         top:1020px;
     }
+
+
+
+
 .qdetails {
     display: inline-block;
        background-color: rgb(255, 255, 255);
