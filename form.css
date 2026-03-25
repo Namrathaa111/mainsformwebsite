@@ -131,7 +131,8 @@ padding-left:7px;
         border-left:1px solid rgb(172, 171, 171);
     }
     .contactdetails{
-          
+        
+         margin-top:10px; 
         display:inline-block;
         position:absolute;
         margin-left:20px;
@@ -144,7 +145,7 @@ padding-left:7px;
         width:450px;
         font-size: large;
         display:block;
-        margin-top:10px;
+        margin-top:12px;
         border-radius:3px;
      }
      .contactsubmit{
