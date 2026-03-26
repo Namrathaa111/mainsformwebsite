@@ -136,7 +136,7 @@ padding-left:7px;
         display:inline-block;
         position:absolute;
         margin-left:20px;
-        width:860px;
+        padding-right:460px;
         border-right:1px solid  rgb(172, 171, 171);
      }
      .contactdetails input{
