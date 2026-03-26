@@ -311,7 +311,7 @@ padding-left:7px;
         width:450px;
         font-size: large;
         display:block;
-        margin-top:15px;
+        margin-top:24px;
         border-radius:3px;
      }
      .radio{
@@ -321,9 +321,9 @@ padding-left:7px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
      }
      .iddetailssubmit{
-        top:500px;
+        top:170px;
         position:relative;
-        text-align: center;
+        text-align:left;
     }
     .iddetailssubmit button{
         padding-left:20px;
@@ -777,5 +777,26 @@ padding-left:7px;
     padding:43px;
         position:relative;
         top:690px;
+    }
+    .msg{
+        border:5px solid white;
+        height:120px;
+        width:600px;
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position: relative;
+        left:550px;
+        border-radius: 5px;
+        color:white;
+    }
+    .fsb{
+     background-image:url( background.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    
     }
 

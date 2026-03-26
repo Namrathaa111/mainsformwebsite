@@ -46,6 +46,7 @@
     <div class="qdetails">
         <h3>Education Details</h3>
         <hr>
+        <form action="adetails.html" style="display:contents">
         <div class="t">
         <h3 style="border:none;">10th or equivalent(details as per Class 10th board marksheet) Qualification details</h3>
          <pre>Pass status                                                                                                                                        Year of Passing/Appearing</pre>
@@ -131,14 +132,14 @@
             <option>GPA</option>
           </select>
           <pre style="margin-top:35px;">Total Marks                                                                            Obtained Marks                                                     Marks Percentage%</pre>
-           <input type="text" style="height:30px;width:300px;font-size:large" placeholder="100">
-           <input type="text" style="height:30px;width:300px;margin-left:130px;font-size:large" placeholder="100">
-           <input type="text" style="height:30px;width:300px;margin-left:50px;font-size:large" placeholder="100">
+           <input type="text" required maxlength="4" minlength="4" style="height:30px;width:300px;font-size:large" placeholder="1000" pattern="[0-9]{4}">
+           <input type="text" required maxlength="4" minlength="4" style="height:30px;width:300px;margin-left:130px;font-size:large" placeholder="1000" pattern="[0-9]{4}">
+           <input type="number" required style="height:30px;width:300px;margin-left:50px;font-size:large" placeholder="100.0" min="0" step="0.1">
            <pre style="margin-top:35px;">Roll Number                                                                                                                           School/College Name and Address</pre>
-             <input type="text" style="height:30px;width:300px;font-size:large">
-             <input type="text" style="height:30px;width:400px;margin-left:360px;font-size:large" placeholder="100">
+             <input type="number" required title="as per tenth hall ticket" style="height:30px;width:300px;font-size:large">
+             <input type="text" maxlength="200" style="height:30px;width:400px;margin-left:360px;font-size:large" >
              <pre style="margin-top:35px;">School/ College Address Pincode</pre>
-             <input type="text" style="height:30px;width:300px;font-size:large">
+             <input type="text" maxlength="6" minlength="6" style="height:30px;width:300px;font-size:large" placeholder="500016" >
         
         </div>
         <br>
@@ -226,18 +227,20 @@
           </select>
           
           <pre style="margin-top:35px;">Result</pre>
-           <input type="text" style="height:30px;width:300px;font-size:large" placeholder="100">
+           <input type="number" required min="0" max="1000" style="height:30px;width:300px;font-size:large" placeholder="999">
            
            <pre style="margin-top:35px;">Roll Number                                                                                                                           School/College Name and Address</pre>
-             <input type="text" style="height:30px;width:300px;font-size:large">
-             <input type="text" style="height:30px;width:400px;margin-left:360px;font-size:large" placeholder="100">
+             <input type="text" required title="as mentioned in 12th hall ticket" style="height:30px;width:300px;font-size:large">
+             <input type="text" required maxlength="200" style="height:30px;width:400px;margin-left:360px;font-size:large">
              <pre style="margin-top:35px;">School/ College Address Pincode</pre>
-             <input type="text" style="height:30px;width:300px;font-size:large">
-        </div>
-        </div>
+             <input type="text" maxlength="6" minlength="6" style="height:30px;width:300px;font-size:large" placeholder="500016" >
+            </div>
         <div class="qdetailssubmit">
-        <button><a href="adetails.html"> Save & Next</a></button>
-    </div>
+        <button> Save & Next</button>
+      </div>
+      </form>
+        </div>
+        
     <footer>
        <div class="qfoot"><h4>Disclaimer: This is a sample website
                         &copy;copyright reserved</h4></div>

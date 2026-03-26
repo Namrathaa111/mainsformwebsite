@@ -43,11 +43,13 @@
            <div style="padding:8px;">o Final Submit</div>
          </div>
         </div>
-
+   
      <div class="contact">
         <h3>Contact Details</h3>
         <hr>
-        <div class="contactname">
+     <form action="pdetails.html">
+         <div class="contactname">
+             
            <pre>Candidate's Phone Number:
             
 Candidate's E-mail ID:
@@ -60,19 +62,23 @@ Alternate Phone number:
 
            </pre>
         </div>
-
+          
         <div class="contactdetails">
-            <input type="tel" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
-            <input type="e-mail" placeholder="spongebob@gmail.com">
-            <input type="e-mail" placeholder="spongebob@gmail.com">
-            <input type="e-mail" placeholder="spongebob@gmail.com">
-            <input type="tel" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+              
+            <input type="tel" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="enter in this format: 123-456-7890" required>
+            <input type="email" placeholder="spongebob@gmail.com" title="Enter in this format: spongebob@gmail.com" required>
+            <input type="email" placeholder="spongebob@gmail.com" title="Enter in this format: spongebob@gmail.com" required>
+            <input type="email" placeholder="spongebob@gmail.com"title="Enter in this format: spongebob@gmail.com" required>
+            <input type="tel" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="enter in this format: 123-456-7890" required>
+            
         </div>
+    
+ <div class="contactsubmit">
+        <button type="submit"> Submit & Next</button>
     </div>
-<div class="contactsubmit">
-        <button><a href="pdetails.html"> Submit & Next</a></button>
-    </div>
-    </body>
+</form>
+</div>
+        </body>
     <footer>
        <div class="ffoot"><h4>Disclaimer: This is a sample website
                         &copy;copyright reserved</h4></div>

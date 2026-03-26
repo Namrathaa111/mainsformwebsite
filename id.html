@@ -46,6 +46,7 @@
     <div class="iddetails">
         <h3>Identity Type Details</h3>
         <hr>
+        <form action="ecdetails.html" style="display:contents">
         <div class="iddetailsname">
 <pre>
 Choose Identity:
@@ -71,11 +72,11 @@ Candidate's Name:
 </pre>
 </div>
 <div class="iddetailsdetails">
-    <input type="text" maxlength="40" placeholder="260345023543">
-    <input type="text" maxlength="40" placeholder="Jennifer Lawrence">
+    <input type="text"  required placeholder="250310438215" pattern="[0-9]{12}" title="Enter in this format: 1234-4567-6789">
+    <input type="text" required minlength="3" maxlength="40" placeholder="Jennifer Lawrence">
 </div>
 <div class="radio">
-    <pre> <input type="radio"> I voluntarily agree to share my child /ward Aadhar Number and I am aware that it will be used to establish his/her identity
+    <pre> <input type="radio" name="consent" required> I voluntarily agree to share my child /ward Aadhar Number and I am aware that it will be used to establish his/her identity
   for the JEE(Main)-2026 Examination by matching his/her personal identification details available in Aadhar record of UIDAI</pre>
 </div>
  <div class="iddetailsname">
@@ -87,13 +88,15 @@ Confirm Aadhar Number:
 </pre>
 </div>
 <div class="iddetailsdetails">
-    <input type="text" maxlength="40" placeholder="1234-3452-6645" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}">
-    <input type="text" maxlength="40" placeholder="1234-3452-6645" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}">
-</div>
+    <input type="text"  required placeholder="1234-3452-6645" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}">
+    <input type="text" placeholder="1234-3452-6645" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}">
 </div>
 <div class="iddetailssubmit">
-        <button><a href="ecdetails.html"> Submit & Next</a></button>
+        <button> Submit & Next</button>
     </div>
+    </form>
+</div>
+
     <footer>
        <div class="ifoot"><h4>Disclaimer: This is a sample website
                         &copy;copyright reserved</h4></div>

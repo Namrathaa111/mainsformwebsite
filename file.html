@@ -46,6 +46,7 @@
     <div class="fdetails">
         <h3>Document Upload</h3>
         <hr>
+        <form action="fs.html" enctype="multipart/form-data" style="display:contents;">
         <h4 style="color:rgb(228, 8, 8);">Please make sure that all submitted documents adhere to the specifications mentioned in the table below</h4>
         <table>
             <tr class="tableheading">
@@ -75,7 +76,7 @@ JPG/JPEG
  </pre>
                     </div>
                 </td>
-                <td><input type="file" accept="image/jpg,image/jpeg"></td>
+                <td><input  required type="file" accept="image/jpg,image/jpeg"></td>
                 
                 <td><pre>Click here to view 
 uploaded document</pre></td>
@@ -99,7 +100,7 @@ JPG/JPEG
  </pre>
                     </div>
                 </td>
-                <td><input type="file" accept="image/jpg,image/jpeg"></td>
+                <td><input required type="file" accept="image/jpg,image/jpeg"></td>
                 
                 <td><pre>Click here to view 
 uploaded document</pre></td>
@@ -118,13 +119,13 @@ Max Size(KB):
                     </div>
                     <div class="namedetails">
                         <pre>CLASSXCERTIFICATE
-JPG/JPEG
+PDF
 10
 300
  </pre>
                     </div>
                 </td>
-                <td><input type="file" accept="PDF"></td>
+                <td><input required type="file" accept="application/pdf"></td>
                 
                 <td><pre>Click here to view 
 uploaded document</pre></td>
@@ -132,7 +133,8 @@ uploaded document</pre></td>
         </table>
     <div class="fdetailssubmit">
         <button> Submit</button>
-    </div>    
+    </div>  
+    </form>  
 </div>
 <footer>
        <div class="fifoot"><h4>Disclaimer: This is a sample website
